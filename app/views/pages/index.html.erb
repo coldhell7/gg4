@@ -1,12 +1,32 @@
+
+
+
 <h1>Welcom to Gizmo Guru</h1>
 <p>hello my friend let's make a Quick Video CV in 10 minutes</p>
+
+
+
+
+
+
+
+
+
+
 
 
 <% if user_signed_in? %>
 <%= link_to "logout" , destroy_user_session_path, :method => :delete %>
 <%= link_to "Edit profile" , edit_user_registration_path %>
+
 <%else%>
 
 <%= link_to "Sign up" , new_user_registration_path %>
 <%= link_to "Sign in!", new_user_session_path %>
 <%end%>
+
+</br>
+</br>
+</br>
+</br>
+<%= link_to '<button type="button">Start Recording now!</button>'.html_safe, 'pages/record' %>

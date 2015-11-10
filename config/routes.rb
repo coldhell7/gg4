@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
   get 'pages/index'
-
+  get 'pages/record'
   resources :videos
   resources :resumes
   resources :gusers
 
   root 'pages#index'
+
+  
 
   devise_for :users, controllers: {sessions: 'users/sessions'  }
   # The priority is based upon order of creation: first created -> highest priority.

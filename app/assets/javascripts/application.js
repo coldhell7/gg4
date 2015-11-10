@@ -10,6 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require scriptcam
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
