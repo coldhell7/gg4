@@ -6,17 +6,24 @@
 #
 development:
   adapter: postgresql
-  database: gg_db
+  database: gg_db2
   pool: 5
   timeout: 5000
+  username: rails
+  password: 1234qweR
+
 test:
   adapter: postgresql
-  database: gg_db
+  database: gg_db2
   pool: 5
   timeout: 5000
+  username: rails
+  password: 1234qweR
 
 production:
   adapter: postgresql
-  database: gg_db
+  database: gg_db2
   pool: 5
   timeout: 5000
+  username: rails
+  password: 1234qweR
